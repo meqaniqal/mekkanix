@@ -4,5 +4,7 @@ background-color:white;color:black
 .green{
 background-color:green;color:black
 }
-
+button:hover {
+  background-color: yellow;
+}
 body {font-family:Arial,sans-serif}
