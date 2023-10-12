@@ -13,3 +13,15 @@ button:hover {
 body {
 font-family:Arial,sans-serif;
 }
+
+.center{
+text-align: center;
+}
+
+.divider, img{
+width:100%;
+}
+
+.gray{
+color:#363636;
+}
