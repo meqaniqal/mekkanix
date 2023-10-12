@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="initial-scale=1, width=device-width" charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="green" style="font-weight:bold; font-size:1em;">
+<!--{% block body %}
+{% endblock %}
+--!>
+<h2 class="center" style="color:yellow; background-color:gray">Github Usage Instructions:<br></h2>
+<img class="divider" src="divider.png">
+<h2> Starting out:</h2><ol><li>
+    Go into bash in terminal.<br></li><li>
+Go to website git directory in terminal and IDE.<br>
+</li></ol>
+<img class="divider" src="divider.png">
+<h3>Cmd line cmds to set up github for greater use from cmd line:</h3>
+git config --global user.email "you@example.com"<br>
+git config --global user.name "Your Name"
+
+<img class="divider" src="divider.png">
+<div class="standout">
+<h2>Add a file:</h2>
+<br>git add hello.html<br>
+</div>
+<img class="divider" src="divider.png">
+<div class="standout">
+<h3>Commit, add instructions:</h3>
+<ul><li><h3>To commit current:</h3></li></ul>
+git commit -m "added more stuff to instructions"<br>
+<br>git commit -am to commit all local to local changes and provide a msg thus, the 'm.'
+</div>
+<img class="divider" src="divider.png">
+<div class="standout">
+<h3>Get current status:</h3>
+git status (get info about current local/github relationship.<br>
+</div>
+<img class="divider" src="divider.png">
+<div class="standout">
+<h3>Update github repository at github.com:</h3>
+git push (update github from local.)<br>
+(does not work in cmd line anymore<br>unless for password, you create a personal access token.<br>
+Or you can use the push icon in pycharm instead of the command line.
+</div>
+<img class="divider" src="divider.png">
+<h3>Reset:</h3>
+git reset --hard origin/master (reset local to github.)<br>
+<br>git reset --hard &ltcommit&gt  (&ltcommit&gt is hash of the version you want to reset to.)
+<img class="divider" src="divider.png">
+<div class="standout">
+<h3>Branching:</h3>
+git branch (Tells what branches exist and what branch is currently the one pointed to as the official branch.)
+<p> git checkout -b branchname (Make new branch called "branchname"</p>
+<p class="gray">(Changes will be made now only to the branch pointed to by head.)</p>
+git checkout branchname (switch to branchname as official.)<ul><li>
+        This switches the local version to the current version of the branch as well, <br>(local version, I'd guess.)
+    </li></ul>
+
+<h3>Switch to master branch:</h3>
+git merge branchname (this will merge the changes from the specified branchname with the current branch "master."
+<br>
+(Merge conflicts can occur.)
+</div>
+</body>
+</html>
