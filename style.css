@@ -38,4 +38,10 @@ td {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: right -22px top;
-}}
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
