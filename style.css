@@ -30,4 +30,12 @@ color:#363636;
 
 .standout{
 background-color:#51db7b;
+margin:5px;
 }
+
+
+td {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right -22px top;
+}}
