@@ -41,7 +41,15 @@ td {
 }
 
 .heading {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  margin: 0px auto;
+}
+
+.logo-table {
+  background: #000 url('mekkanixlogobing.jpg');
+  height: 100%;
+  border: none;
+  margin: 0px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
 }
