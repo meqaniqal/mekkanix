@@ -45,10 +45,12 @@ td {
 }
 
 .logo-table {
-  background: #000 url('mekkanixlogobing.jpg');
+  background: #0000
+  url('mekkanixlogobing.jpg');
   height: 100%;
   border: none;
-  margin: 0px;
+  margin-left:auto;
+  margin-right:auto;
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
